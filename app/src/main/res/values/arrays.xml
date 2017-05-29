@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="position">
+        <item>top.jpg</item>
+        <item>jungle.jpg</item>
+        <item>mid.jpg</item>
+        <item>adc.jpg</item>
+        <item>support.jpg</item>
+        <item>bug.jpg</item>
+        <item>science.jpg</item>
+    </string-array>
+</resources>

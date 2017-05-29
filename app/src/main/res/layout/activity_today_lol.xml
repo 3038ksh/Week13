@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kimsoohyeong.week13.TodayLOL"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:background="#f5c5c5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:text="이미지 변경 간격(초)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <EditText
+            android:text="1"
+            android:id="@+id/et1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn"
+            android:onClick="onClick"
+            android:text="처음으로"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ae0000"
+        android:textSize="35dp"
+        android:text="오늘 어디로 갈까?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:onClick="onClick"
+        android:id="@+id/image"
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:layout_weight="0.19" />
+
+    <TextView
+        android:id="@+id/text"
+        android:textSize="20dp"
+        android:textColor="#2f60ff"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
